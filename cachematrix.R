@@ -2,9 +2,10 @@
 makeCacheMatrix <- function(x = matrix()){
     
     # Test here to ensure argument matrix is a square matrix
-    if(nrow(x) != ncol(x)){
-        message("This function requires a square matrix - a matrix with an equal number of columns and rows.")
-    }
+    # For this assignment, assume that the matrix supplied is always invertible.
+    # if(nrow(x) != ncol(x)){
+    #    message("This function requires a square matrix - a matrix with an equal number of columns and rows.")
+    # }
     
     m <- NULL
     
